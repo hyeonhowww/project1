@@ -5,11 +5,42 @@
   <title>롯데이노베이트</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
   <link rel="stylesheet" href="css/Lotte.css">
+  <style>
+    .popup {
+            position: fixed;
+            width: 440px;
+            height: 250px;
+            background-color: white;
+            border-radius: 20px;
+            padding: 20px;
+            box-sizing: border-box;
+            font-size: 24px;
+            z-index: 99999;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 100px;
+            box-shadow: 8px 8px 16px rgba(0, 0, 0, .5);
+            line-height: 1.75;
+        }
+
+        button {
+            display: block;
+            padding: 8px 16px;
+            border-radius: 8px;
+            position: absolute;
+            right: 750px;
+            top: 440px;
+            z-index: 100000;
+        }
+  </style>
 
 </head>
 <body>
+  <div class="popup">해당 사이트는 학습용으로 제작되었으며 롯데이노베이트와 무관합니다.
+        구직용 포트폴리오로 상업적 목적이 없음을 알립니다.</div>
+        <button>닫기</button>
   <header>
-        <div class="wrap">
+        <h1>롯데이노베이트</h1>
         <nav>
             <div class="w100"></div>
             <ul class="gnb">
@@ -81,51 +112,53 @@
                 </li>
             </ul>
         </nav>
-    </div>
+        <div class="utils"></div>
   </header>
-
-  <section class="hero"></section>
-
-  <section class="section">
-    <h2>Main text</h2>
-    <div class="business-cards">
-      <div class="card">Sub text</div>
-      <div class="card">Sub text</div>
-      <div class="card">Sub text</div>
-      <div class="card">Sub text</div>
-    </div>
-  </section>
-
-  <section class="section search-area">
-    <input type="text" placeholder="검색어를 입력해주세요">
-  </section>
-
-  <section class="section">
-    <h2>Main text</h2>
-    <div class="news-slider">
-      <div class="news-card">Sub text</div>
-      <div class="news-card">Sub text</div>
-      <div class="news-card">Sub text</div>
-      <div class="news-card">Sub text</div>
-      <div class="news-card">Sub text</div>
-      <div class="news-card">Sub text</div>
-      <div class="news-card">Sub text</div>
-    </div>
-  </section>
-
-  <section class="recruit-section">
-    <h2>Main text</h2>
-    <div class="recruit-cards">
-      <div class="recruit-card">Sub text</div>
-      <div class="recruit-card">Sub text</div>
-      <div class="recruit-card">Sub text</div>
-      <div class="recruit-card">Sub text</div>
-    </div>
-  </section>
-
+<main>
+  
+    <section class="hero"></section>
+  
+    <section class="section">
+      <h2>Main text</h2>
+      <div class="business-cards">
+        <div class="card">Sub text</div>
+        <div class="card">Sub text</div>
+        <div class="card">Sub text</div>
+        <div class="card">Sub text</div>
+      </div>
+    </section>
+  
+    <section class="section search-area">
+      <input type="text" placeholder="검색어를 입력해주세요">
+    </section>
+  
+    <section class="section">
+      <h2>Main text</h2>
+      <div class="news-slider">
+        <div class="news-card">Sub text</div>
+        <div class="news-card">Sub text</div>
+        <div class="news-card">Sub text</div>
+        <div class="news-card">Sub text</div>
+        <div class="news-card">Sub text</div>
+        <div class="news-card">Sub text</div>
+        <div class="news-card">Sub text</div>
+      </div>
+    </section>
+  
+    <section class="recruit-section">
+      <h2>Main text</h2>
+      <div class="recruit-cards">
+        <div class="recruit-card">Sub text</div>
+        <div class="recruit-card">Sub text</div>
+        <div class="recruit-card">Sub text</div>
+        <div class="recruit-card">Sub text</div>
+      </div>
+    </section>
+  
+</main>
   <footer>
     © LOTTE INNOVATE COMPANY. All rights reserved.
   </footer>
-
+<script src="script/js.js"></script>
 </body>
 </html>
