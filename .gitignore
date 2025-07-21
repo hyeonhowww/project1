@@ -19,8 +19,3 @@ Thumbs.db
 .env
 .env.*
 
-# Images
-*.png
-*.jpeg
-*.gif
-*.svg
